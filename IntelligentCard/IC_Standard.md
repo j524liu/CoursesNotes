@@ -24,7 +24,7 @@
 
       1. 53.98x85.6x0.76mm 塑料基片、电极膜片
 
-         ![image-20200303113927476](/home/leon/.config/Typora/typora-user-images/image-20200303113927476.png)
+         ![接触式IC卡结构](./pic/Picture1.png)
 
       2. 防护紫外线、X光照射的剂量、触点的表面轮廓、卡和触点的机械强度、触点电阻、磁条与集成电路之间的电磁干扰
 
@@ -32,11 +32,11 @@
 
    1. **接触式IC卡**
 
-      1. 8个触点，即集成电路引脚，C1～C8，
+      8个触点，即集成电路引脚，C1～C8，
 
-         ![接触式IC卡的触点尺寸和位置](https://wkretype.bdimg.com/retype/zoom/5b189032b4daa58da0114a5c?pn=13&o=jpg_6&md5sum=7673a3f959a05c765f1ff83301ec0589&sign=eb7a9359b2&png=1179136-1211120&jpg=1706260-1805110)
+      ![接触式IC卡的触点尺寸和位置](./pic/Picture2.png)
 
-         ![接触式IC卡触点功能](https://wkretype.bdimg.com/retype/zoom/5b189032b4daa58da0114a5c?pn=12&o=jpg_6&md5sum=7673a3f959a05c765f1ff83301ec0589&sign=eb7a9359b2&png=1153537-1179135&jpg=1631435-1706259)
+      ![接触式IC卡触点功能](./pic/Picture3.png)
 
 4. ***ISO 7816-4 行业间交换用指令***
    1. **规定的范围**
