@@ -59,16 +59,15 @@
 
    * **按集成度分类：**
 
-     > 可编程逻辑器件（PLD）
-     >
-     >  * 简单PLD（SPLD）
-     >    * PROM
-     >    * PLA
-     >    * PAL
-     >    * GAL
-     >  * 复杂PLD（CPLD）
-     >    * CPLD
-     >    * FPGA
+     > * 可编程逻辑器件（PLD）
+     >    * 简单PLD（SPLD）
+     >      * PROM
+     >      * PLA
+     >      * PAL
+     >      * GAL
+     >    * 复杂PLD（CPLD）
+     >      * CPLD
+     >      * FPGA
 
    * **按可编程特性分类：**
 
