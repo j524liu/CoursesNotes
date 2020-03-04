@@ -87,3 +87,6 @@
      > * EEPROM
      > * SRAM
 
+[上一篇](./ASIC 1.md)
+
+[下一篇](./ASIC 3.md)
