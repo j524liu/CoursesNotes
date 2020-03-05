@@ -23,14 +23,36 @@
         > * 组成
         >   
         >   * 段寄存器：CS、DS、SS、ES
+        >     
+        >     * > CS（Code Segment）
+        >       >
+        >       > DS（Data Segment）
+        >       >
+        >       > ES（Extra Segment）
+        >       >
+        >       > SS（Stack Segment）
+        >     
         >     * 每个段寄存器16位
+        >     
         >     * 存放相应逻辑段的段基地址
+        >     
         >     * DS、SS、ES的内容可有程序设置，CS的内容不能用程序设置
+        >     
+        >       ![段寄存器1](./pic/pic8.jpg)
+        >     
+        >       ![段寄存器2](./pic/pic9.jpg)
+        >     
         >   * IP指令指针寄存器
         >     * Instruction Pointer，内容为下一条要执行的指令的偏移地址
+        >     
         >     * IP和CS联合确定下一条要执行的指令的物理地址
+        >     
+        >       ![指令指针寄存器](./pic/pic10.jpg)
+        >     
         >   * 地址产生器ALU
+        >   
         >   * 总线控制器
+        >   
         >   * 指令队列（先入先出FIFO）
         >   
         > * 功能
@@ -57,11 +79,23 @@
                 ![通用寄存器图示](./pic/pic4.jpg)
             * 地址指针寄存器（2个）：SP、BP
               * 只能以16位参与操作
+              
               * SP（Stack Pointer）：表示堆栈段栈顶的位置（偏移地址）
+              
               * BP（Base Pointer）：表示数据在堆栈段中的地址
+              
+                * BX：所寻找的数据在数据段
+                * BP：所寻找的数据在堆栈段
+              
+                ![地址指针寄存器1](./pic/pic5.jpg)
+              
+                ![地址指针寄存器2](./pic/pic6.jpg)
             * 变址寄存器（2个）：DI、SI
-              * SI（Source Index）
-              * DI（Destination Index）
+              * SI（Source Index）：常用于存储器变址寻址方式时提供地址；存放源数据的地址
+              
+              * DI（Destination Index）：在串操作类指令中，SI、DI有特殊用法；存放目的数据的地址
+              
+                ![变址寄存器1](./pic/pic7.jpg)
           * 运算器ALU
           * 指令操作控制电路
           * 1个状态标志寄存器
